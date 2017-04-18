@@ -14,6 +14,7 @@
 		76A328B31EA5FDDA005C5E93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76A328B11EA5FDDA005C5E93 /* LaunchScreen.storyboard */; };
 		76A328BE1EA5FDDB005C5E93 /* SwiftApiIntroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A328BD1EA5FDDB005C5E93 /* SwiftApiIntroTests.swift */; };
 		76A328C91EA5FDDB005C5E93 /* SwiftApiIntroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A328C81EA5FDDB005C5E93 /* SwiftApiIntroUITests.swift */; };
+		76A328D71EA5FE09005C5E93 /* StringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A328D61EA5FE09005C5E93 /* StringTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		76A328C41EA5FDDB005C5E93 /* SwiftApiIntroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftApiIntroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76A328C81EA5FDDB005C5E93 /* SwiftApiIntroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftApiIntroUITests.swift; sourceTree = "<group>"; };
 		76A328CA1EA5FDDB005C5E93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76A328D61EA5FE09005C5E93 /* StringTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 			children = (
 				76A328BD1EA5FDDB005C5E93 /* SwiftApiIntroTests.swift */,
 				76A328BF1EA5FDDB005C5E93 /* Info.plist */,
+				76A328D61EA5FE09005C5E93 /* StringTests.swift */,
 			);
 			path = SwiftApiIntroTests;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76A328D71EA5FE09005C5E93 /* StringTests.swift in Sources */,
 				76A328BE1EA5FDDB005C5E93 /* SwiftApiIntroTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
