@@ -2,7 +2,7 @@
 //  StringTests.swift
 //  SwiftApiIntro
 //
-//  Created by 有村 皓太郎 on 2017/04/18.
+//  Created by hormiga6 on 2017/04/18.
 //
 //
 
@@ -34,5 +34,27 @@ class StringTests: XCTestCase {
         
         XCTAssertEqual(single.utf16.count, 7)
         XCTAssertEqual(double.utf16.count, 8)
+    }
+    
+    func testRemove(){
+        var hoge = "hoge"
+        hoge.remove(at: hoge.startIndex);
+        XCTAssertEqual(hoge, "oge")
+        
+        //can't compile because "remove" mutate string
+        //let hoge = "hoge"
+        //hoge.remove(at: hoge.startIndex);
+    }
+    
+    func testCharacters(){
+        let hoge = "hoge"
+        XCTAssertEqual(className(hoge.characters), "CharacterView")
+        XCTAssertEqual(String(hoge.characters.dropFirst()), "oge")
+    }
+
+    func testIndex() {
+        let hoge = "hoge"
+        let idx = hoge.index(hoge.startIndex, offsetBy: 1)
+        XCTAssertEqual(hoge.substring(from: idx), "oge")
     }
 }
