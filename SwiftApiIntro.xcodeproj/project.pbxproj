@@ -7,13 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7681ECD51EA77A4D00843CE3 /* JsonTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7681ECD41EA77A4D00843CE3 /* JsonTest.swift */; };
 		76A328A91EA5FDDA005C5E93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A328A81EA5FDDA005C5E93 /* AppDelegate.swift */; };
 		76A328AB1EA5FDDA005C5E93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A328AA1EA5FDDA005C5E93 /* ViewController.swift */; };
 		76A328AE1EA5FDDA005C5E93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76A328AC1EA5FDDA005C5E93 /* Main.storyboard */; };
 		76A328B01EA5FDDA005C5E93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76A328AF1EA5FDDA005C5E93 /* Assets.xcassets */; };
 		76A328B31EA5FDDA005C5E93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76A328B11EA5FDDA005C5E93 /* LaunchScreen.storyboard */; };
-		76A328BE1EA5FDDB005C5E93 /* SwiftApiIntroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A328BD1EA5FDDB005C5E93 /* SwiftApiIntroTests.swift */; };
-		76A328C91EA5FDDB005C5E93 /* SwiftApiIntroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A328C81EA5FDDB005C5E93 /* SwiftApiIntroUITests.swift */; };
 		76A328D71EA5FE09005C5E93 /* StringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A328D61EA5FE09005C5E93 /* StringTests.swift */; };
 		76A328D91EA6175E005C5E93 /* TestUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A328D81EA6175E005C5E93 /* TestUtil.swift */; };
 /* End PBXBuildFile section */
@@ -36,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7681ECD41EA77A4D00843CE3 /* JsonTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonTest.swift; sourceTree = "<group>"; };
 		76A328A51EA5FDDA005C5E93 /* SwiftApiIntro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftApiIntro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76A328A81EA5FDDA005C5E93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		76A328AA1EA5FDDA005C5E93 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,10 +44,8 @@
 		76A328B21EA5FDDA005C5E93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		76A328B41EA5FDDA005C5E93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		76A328B91EA5FDDB005C5E93 /* SwiftApiIntroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftApiIntroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		76A328BD1EA5FDDB005C5E93 /* SwiftApiIntroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftApiIntroTests.swift; sourceTree = "<group>"; };
 		76A328BF1EA5FDDB005C5E93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		76A328C41EA5FDDB005C5E93 /* SwiftApiIntroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftApiIntroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		76A328C81EA5FDDB005C5E93 /* SwiftApiIntroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftApiIntroUITests.swift; sourceTree = "<group>"; };
 		76A328CA1EA5FDDB005C5E93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		76A328D61EA5FE09005C5E93 /* StringTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringTests.swift; sourceTree = "<group>"; };
 		76A328D81EA6175E005C5E93 /* TestUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestUtil.swift; sourceTree = "<group>"; };
@@ -114,10 +112,10 @@
 		76A328BC1EA5FDDB005C5E93 /* SwiftApiIntroTests */ = {
 			isa = PBXGroup;
 			children = (
-				76A328BD1EA5FDDB005C5E93 /* SwiftApiIntroTests.swift */,
 				76A328BF1EA5FDDB005C5E93 /* Info.plist */,
 				76A328D61EA5FE09005C5E93 /* StringTests.swift */,
 				76A328D81EA6175E005C5E93 /* TestUtil.swift */,
+				7681ECD41EA77A4D00843CE3 /* JsonTest.swift */,
 			);
 			path = SwiftApiIntroTests;
 			sourceTree = "<group>";
@@ -125,7 +123,6 @@
 		76A328C71EA5FDDB005C5E93 /* SwiftApiIntroUITests */ = {
 			isa = PBXGroup;
 			children = (
-				76A328C81EA5FDDB005C5E93 /* SwiftApiIntroUITests.swift */,
 				76A328CA1EA5FDDB005C5E93 /* Info.plist */,
 			);
 			path = SwiftApiIntroUITests;
@@ -278,7 +275,7 @@
 			files = (
 				76A328D71EA5FE09005C5E93 /* StringTests.swift in Sources */,
 				76A328D91EA6175E005C5E93 /* TestUtil.swift in Sources */,
-				76A328BE1EA5FDDB005C5E93 /* SwiftApiIntroTests.swift in Sources */,
+				7681ECD51EA77A4D00843CE3 /* JsonTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +283,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76A328C91EA5FDDB005C5E93 /* SwiftApiIntroUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -519,6 +515,7 @@
 				76A328CF1EA5FDDB005C5E93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		76A328D01EA5FDDB005C5E93 /* Build configuration list for PBXNativeTarget "SwiftApiIntroTests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +524,7 @@
 				76A328D21EA5FDDB005C5E93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		76A328D31EA5FDDB005C5E93 /* Build configuration list for PBXNativeTarget "SwiftApiIntroUITests" */ = {
 			isa = XCConfigurationList;
@@ -535,6 +533,7 @@
 				76A328D51EA5FDDB005C5E93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
