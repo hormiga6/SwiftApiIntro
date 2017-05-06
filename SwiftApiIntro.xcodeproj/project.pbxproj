@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		76447ED51EBB17B800A091C7 /* HttpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76447ED41EBB17B800A091C7 /* HttpRequest.swift */; };
 		7681ECD51EA77A4D00843CE3 /* JsonTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7681ECD41EA77A4D00843CE3 /* JsonTest.swift */; };
 		76A328A91EA5FDDA005C5E93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A328A81EA5FDDA005C5E93 /* AppDelegate.swift */; };
 		76A328AB1EA5FDDA005C5E93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A328AA1EA5FDDA005C5E93 /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		76447ED41EBB17B800A091C7 /* HttpRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpRequest.swift; sourceTree = "<group>"; };
 		7681ECD41EA77A4D00843CE3 /* JsonTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonTest.swift; sourceTree = "<group>"; };
 		76A328A51EA5FDDA005C5E93 /* SwiftApiIntro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftApiIntro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76A328A81EA5FDDA005C5E93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 				76A328D81EA6175E005C5E93 /* TestUtil.swift */,
 				7681ECD41EA77A4D00843CE3 /* JsonTest.swift */,
 				76E99A471EAC6292001BEDB7 /* RegexTests.swift */,
+				76447ED41EBB17B800A091C7 /* HttpRequest.swift */,
 			);
 			path = SwiftApiIntroTests;
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				76A328D71EA5FE09005C5E93 /* StringTests.swift in Sources */,
+				76447ED51EBB17B800A091C7 /* HttpRequest.swift in Sources */,
 				76E99A481EAC6292001BEDB7 /* RegexTests.swift in Sources */,
 				76A328D91EA6175E005C5E93 /* TestUtil.swift in Sources */,
 				7681ECD51EA77A4D00843CE3 /* JsonTest.swift in Sources */,
