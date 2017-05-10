@@ -2,34 +2,21 @@
 //  DictionaryTests.swift
 //  SwiftApiIntro
 //
-//  Created by 有村 皓太郎 on 2017/05/09.
 //
 //
 
 import XCTest
 
 class DictionaryTests: XCTestCase {
-    
-    override func setUp() {
-        super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
-    
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-        super.tearDown()
-    }
-    
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-    
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
-    }
-    
+
+  func testType() {
+    let dic = [1:"hoge",2:"fuga"]
+    XCTAssertEqual(String(describing: type(of: dic[1])), "Optional<String>")
+    XCTAssertEqual(String(describing: type(of: dic[3])), "Optional<String>")
+  }
+
+  func testNested(){
+    let dic = ["key":["nested_key":"hoge"]]
+    XCTAssertEqual(dic["key"]?["nested_key"], "hoge")
+  }
 }
