@@ -10,14 +10,6 @@ import OHHTTPStubs
 
 class OHHTTPStubsTests: XCTestCase {
 
-  override func setUp() {
-    super.setUp()
-  }
-
-  override func tearDown() {
-    super.tearDown()
-  }
-
   func testGetRquest() {
     let semaphore = DispatchSemaphore(value: 0)
 
