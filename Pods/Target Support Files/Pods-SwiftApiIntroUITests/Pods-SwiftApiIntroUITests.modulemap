@@ -1,0 +1,6 @@
+framework module Pods_SwiftApiIntroUITests {
+  umbrella header "Pods-SwiftApiIntroUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
