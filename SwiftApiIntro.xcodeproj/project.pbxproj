@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		28479A5528DDFF23830E486E /* Pods_SwiftApiIntro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D0314B3DD80FB607E8C0A58 /* Pods_SwiftApiIntro.framework */; };
 		3C5D16DBDBF92F29E1809387 /* Pods_SwiftApiIntroUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 980A7171EB5FBA7969C67F3D /* Pods_SwiftApiIntroUITests.framework */; };
+		762B9E621ED572AF0003A9B3 /* MetatypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762B9E611ED572AF0003A9B3 /* MetatypeTests.swift */; };
 		762ECBE51ECBF26700274297 /* OHHTTPStubsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762ECBE41ECBF26700274297 /* OHHTTPStubsTests.swift */; };
 		76447ED51EBB17B800A091C7 /* HttpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76447ED41EBB17B800A091C7 /* HttpRequest.swift */; };
 		76447ED71EBDC43000A091C7 /* ConcurrencyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76447ED61EBDC43000A091C7 /* ConcurrencyTests.swift */; };
@@ -52,6 +53,7 @@
 		2319189BCF9A96BBCCAB7555 /* Pods-SwiftApiIntro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftApiIntro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftApiIntro/Pods-SwiftApiIntro.debug.xcconfig"; sourceTree = "<group>"; };
 		2D0314B3DD80FB607E8C0A58 /* Pods_SwiftApiIntro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftApiIntro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A0AB9FB6FA30013B91893A4 /* Pods-SwiftApiIntro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftApiIntro.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftApiIntro/Pods-SwiftApiIntro.release.xcconfig"; sourceTree = "<group>"; };
+		762B9E611ED572AF0003A9B3 /* MetatypeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetatypeTests.swift; sourceTree = "<group>"; };
 		762ECBE41ECBF26700274297 /* OHHTTPStubsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OHHTTPStubsTests.swift; sourceTree = "<group>"; };
 		76447ED41EBB17B800A091C7 /* HttpRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpRequest.swift; sourceTree = "<group>"; };
 		76447ED61EBDC43000A091C7 /* ConcurrencyTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConcurrencyTests.swift; sourceTree = "<group>"; };
@@ -164,6 +166,7 @@
 				764EF3FE1EC99A5100EF25EE /* ConditionalTests.swift */,
 				762ECBE41ECBF26700274297 /* OHHTTPStubsTests.swift */,
 				76DC6F8E1ECD4B0F0013ACA4 /* HogeTests.swift */,
+				762B9E611ED572AF0003A9B3 /* MetatypeTests.swift */,
 			);
 			path = SwiftApiIntroTests;
 			sourceTree = "<group>";
@@ -499,6 +502,7 @@
 				76447ED51EBB17B800A091C7 /* HttpRequest.swift in Sources */,
 				76E99A481EAC6292001BEDB7 /* RegexTests.swift in Sources */,
 				766D3C0D1EC1EB1500567560 /* CastTests.swift in Sources */,
+				762B9E621ED572AF0003A9B3 /* MetatypeTests.swift in Sources */,
 				76DC6F8F1ECD4B0F0013ACA4 /* HogeTests.swift in Sources */,
 				76447ED71EBDC43000A091C7 /* ConcurrencyTests.swift in Sources */,
 				76A328D91EA6175E005C5E93 /* TestUtil.swift in Sources */,
