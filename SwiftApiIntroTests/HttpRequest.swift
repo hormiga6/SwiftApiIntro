@@ -35,6 +35,7 @@ class HttpRequest: XCTestCase {
     let semaphore = DispatchSemaphore(value: 0)
 
     //change domain to the server with self signed cert
+    //you can use "allowsAnyHTTPSCertificateForHost" before swift 2.3
     let url = URL(string: "https://google.com")!
     let session = URLSession(configuration: URLSessionConfiguration.default, delegate: AcceptSSCDelegate(), delegateQueue: nil)
 
