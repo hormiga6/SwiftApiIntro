@@ -6,11 +6,13 @@ target 'SwiftApiIntro' do
   use_frameworks!
 
   # Pods for SwiftApiIntro
+  pod 'ObjectMapper', '~> 2.2'
 
   target 'SwiftApiIntroTests' do
     inherit! :search_paths
     # Pods for testing
     pod 'OHHTTPStubs/Swift'
+    pod 'ObjectMapper', '~> 2.2'
   end
 
   target 'SwiftApiIntroUITests' do

@@ -17,6 +17,8 @@
 		766D3C0D1EC1EB1500567560 /* CastTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766D3C0C1EC1EB1500567560 /* CastTests.swift */; };
 		766D3C111EC1F32100567560 /* DictionaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766D3C101EC1F32100567560 /* DictionaryTests.swift */; };
 		7681ECD51EA77A4D00843CE3 /* JsonTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7681ECD41EA77A4D00843CE3 /* JsonTest.swift */; };
+		769B56191EE698FF007CD327 /* ObjectMapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769B56181EE698FF007CD327 /* ObjectMapperTests.swift */; };
+		769B561B1EE7CDC4007CD327 /* MyWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769B561A1EE7CDC4007CD327 /* MyWebViewController.swift */; };
 		76A328A91EA5FDDA005C5E93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A328A81EA5FDDA005C5E93 /* AppDelegate.swift */; };
 		76A328AB1EA5FDDA005C5E93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A328AA1EA5FDDA005C5E93 /* ViewController.swift */; };
 		76A328AE1EA5FDDA005C5E93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76A328AC1EA5FDDA005C5E93 /* Main.storyboard */; };
@@ -61,6 +63,8 @@
 		766D3C0C1EC1EB1500567560 /* CastTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CastTests.swift; sourceTree = "<group>"; };
 		766D3C101EC1F32100567560 /* DictionaryTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryTests.swift; sourceTree = "<group>"; };
 		7681ECD41EA77A4D00843CE3 /* JsonTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonTest.swift; sourceTree = "<group>"; };
+		769B56181EE698FF007CD327 /* ObjectMapperTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectMapperTests.swift; sourceTree = "<group>"; };
+		769B561A1EE7CDC4007CD327 /* MyWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyWebViewController.swift; sourceTree = "<group>"; };
 		76A328A51EA5FDDA005C5E93 /* SwiftApiIntro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftApiIntro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76A328A81EA5FDDA005C5E93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		76A328AA1EA5FDDA005C5E93 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -147,6 +151,7 @@
 				76DC6F8D1ECD4A080013ACA4 /* Hoge.h */,
 				76DC6F8B1ECD47B80013ACA4 /* Hoge.m */,
 				76DC6F8A1ECD47B80013ACA4 /* SwiftApiIntro-Bridging-Header.h */,
+				769B561A1EE7CDC4007CD327 /* MyWebViewController.swift */,
 			);
 			path = SwiftApiIntro;
 			sourceTree = "<group>";
@@ -167,6 +172,7 @@
 				762ECBE41ECBF26700274297 /* OHHTTPStubsTests.swift */,
 				76DC6F8E1ECD4B0F0013ACA4 /* HogeTests.swift */,
 				762B9E611ED572AF0003A9B3 /* MetatypeTests.swift */,
+				769B56181EE698FF007CD327 /* ObjectMapperTests.swift */,
 			);
 			path = SwiftApiIntroTests;
 			sourceTree = "<group>";
@@ -489,6 +495,7 @@
 				76A328AB1EA5FDDA005C5E93 /* ViewController.swift in Sources */,
 				76A328A91EA5FDDA005C5E93 /* AppDelegate.swift in Sources */,
 				76DC6F8C1ECD47B80013ACA4 /* Hoge.m in Sources */,
+				769B561B1EE7CDC4007CD327 /* MyWebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -506,6 +513,7 @@
 				76DC6F8F1ECD4B0F0013ACA4 /* HogeTests.swift in Sources */,
 				76447ED71EBDC43000A091C7 /* ConcurrencyTests.swift in Sources */,
 				76A328D91EA6175E005C5E93 /* TestUtil.swift in Sources */,
+				769B56191EE698FF007CD327 /* ObjectMapperTests.swift in Sources */,
 				7681ECD51EA77A4D00843CE3 /* JsonTest.swift in Sources */,
 				764EF3FF1EC99A5100EF25EE /* ConditionalTests.swift in Sources */,
 			);
