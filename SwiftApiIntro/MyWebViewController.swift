@@ -29,6 +29,12 @@ class MyWebViewController: UIViewController, UIWebViewDelegate, NSURLConnectionD
 
 extension MyWebViewController {
 
+  func webViewDidFinishLoad(_ webView: UIWebView) {
+    //init for another request to self signed cert server in same webview
+    authenticated = false
+    failedRequest = nil
+  }
+
   func webView(_ webView: UIWebView, shouldStartLoadWith request: URLRequest, navigationType: UIWebViewNavigationType) -> Bool {
     if !authenticated {
       failedRequest = request
