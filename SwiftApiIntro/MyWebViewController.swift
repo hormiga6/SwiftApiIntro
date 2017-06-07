@@ -18,24 +18,26 @@ class MyWebViewController: UIViewController, UIWebViewDelegate, NSURLConnectionD
   override func viewDidLoad() {
     super.viewDidLoad()
     webView.delegate = self
+    //please use url with self signed cert
     let req = URLRequest(url: URL(string: "http://google.com")!)
     webView.loadRequest(req)
   }
 
-  var selfCertError = false
+  var authenticated = false
   var failedRequest: URLRequest?
 }
 
 extension MyWebViewController {
 
   func webView(_ webView: UIWebView, shouldStartLoadWith request: URLRequest, navigationType: UIWebViewNavigationType) -> Bool {
-    if selfCertError {
+    if !authenticated {
       failedRequest = request
       NSURLConnection(request: request, delegate: self)?.start()
       return false
     }
     return true
   }
+
 
   func connection(_ connection: NSURLConnection,
                   willSendRequestFor challenge: URLAuthenticationChallenge){
@@ -49,7 +51,7 @@ extension MyWebViewController {
   }
 
   func connection(_ connection: NSURLConnection, didReceive data: Data) {
-    selfCertError = false
+    authenticated = true
     connection.cancel()
     if let failedRequest = failedRequest {
       //aftar connection establised successfully, load web view again
